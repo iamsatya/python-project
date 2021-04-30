@@ -9,3 +9,5 @@ def login():
             return redirect(url_for('home'))
     return render_template('login.html', error=error)
 print(lscmd)
+t={}
+print(t)
